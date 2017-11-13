@@ -54,7 +54,7 @@
 			<div class="carousel-inner" role="listbox">
 				<div class="item active">
 					<center>
-						<img src="/img/macbook.png" alt="Macbook" width="700" height="400">
+						<img src="<c:url value='/img/macbook.png'/>" alt="Macbook" width="700" height="400">
 					</center>
 					<div class="carousel-caption">
 						<h2>Macbook</h2>
@@ -65,7 +65,7 @@
 
 				<div class="item">
 					<center>
-						<img src="img/macbookair.png" alt="Macbook Air" width="700"
+						<img src="<c:url value='/img/macbookair.png'/>" alt="Macbook Air" width="700"
 							height="400">
 					</center>
 					<div class="carousel-caption">
@@ -77,7 +77,7 @@
 
 				<div class="item">
 					<center>
-						<img src="img/macbookpro.png" alt="Macbook Air" width="700"
+						<img src="<c:url value='/img/macbookpro.png'/>" alt="Macbook Air" width="700"
 							height="400">
 					</center>
 					<div class="carousel-caption">
