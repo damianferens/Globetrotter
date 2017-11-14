@@ -27,7 +27,8 @@
 	<nav class="navbar navbar-inverse">
 		<div class="container">
 			<div class="navbar-header">
-				<a class="navbar-brand" href="#">Witajcie przybysze</a>
+				<a class="navbar-brand" href="#"><img src="img/home.png"
+					width="20"></a>
 			</div>
 			<div id="navbar" class="collapse navbar-collapse">
 				<ul class="nav navbar-nav">
@@ -41,57 +42,111 @@
 		</div>
 	</nav>
 
-	<div class="jumbotron text-center">
-		<div id="myCarousel" class="carousel slide" data-ride="carousel">
-			<!-- Indicators -->
-			<ol class="carousel-indicators">
-				<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-				<li data-target="#myCarousel" data-slide-to="1"></li>
-				<li data-target="#myCarousel" data-slide-to="2"></li>
-			</ol>
+	<div class="col-sm-6">
+		<h3 class="text-center">Zaplanuj idealną wycieczkę</h3>
+		<div class="row">
+			<div class="col-sm-3"></div>
+			<div class="col-sm-6">
+				<form action="#" method="get" id="searchForm" class="input-group">
 
-			<!-- Wrapper for slides -->
-			<div class="carousel-inner" role="listbox">
-				<div class="item active">
-					<center>
-						<img src="<c:url value='/img/macbook.png'/>" alt="Macbook" width="700" height="400">
-					</center>
-					<div class="carousel-caption">
-						<h2>Macbook</h2>
-						<p style="color: white; font-weight: bold;">MacBook to nowa
-							przyszłość notebooków.</p>
+					<input type="text" class="form-control" name="x"
+						placeholder="Dokąd"> <input type="text"
+						class="form-control" name="x" placeholder="Skąd"> <input
+						type="text" class="form-control" name="x" placeholder="ilość osób">
+					<span class="input-group-btn">
+						<button class="btn btn-default" type="submit">
+							<span class="glyphicon glyphicon-search"></span>
+						</button>
+					</span>
+				</form>
+			</div>
+
+		</div>
+	</div>
+
+	<div class="col-sm-6">
+
+		<div class="jumbotron text-center">
+			<div id="myCarousel" class="carousel slide" data-ride="carousel">
+				<!-- Indicators -->
+				<ol class="carousel-indicators">
+					<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+					<li data-target="#myCarousel" data-slide-to="1"></li>
+					<li data-target="#myCarousel" data-slide-to="2"></li>
+				</ol>
+
+				<!-- Wrapper for slides -->
+				<div class="carousel-inner" role="listbox">
+					<div class="item active">
+						<center>
+							<img src="<c:url value='/img/spain.jpg'/>" alt="Hiszpania"
+								width="700" height="300">
+						</center>
+						<div class="carousel-caption">
+							<h1>Hiszpania</h1>
+							<p style="color: white; font-weight: bold;">już od 2000 zł</p>
+						</div>
 					</div>
-				</div>
 
-				<div class="item">
-					<center>
-						<img src="<c:url value='/img/macbookair.png'/>" alt="Macbook Air" width="700"
-							height="400">
-					</center>
-					<div class="carousel-caption">
-						<h2>Macbook Air</h2>
-						<p style="color: white; font-weight: bold;">Jest energia do
-							wielkich rzeczy. Na cały dzień.</p>
+					<div class="item">
+						<center>
+							<img src="<c:url value='/img/france.jpg'/>" alt="Francja"
+								width="700" height="300">
+						</center>
+						<div class="carousel-caption">
+							<h1>Francja</h1>
+							<p style="color: white; font-weight: bold;">już od 1500 zł</p>
+						</div>
 					</div>
-				</div>
 
-				<div class="item">
-					<center>
-						<img src="<c:url value='/img/macbookpro.png'/>" alt="Macbook Air" width="700"
-							height="400">
-					</center>
-					<div class="carousel-caption">
-						<h2>Macbook Pro</h2>
-						<p style="color: white; font-weight: bold;">Nowy MacBook Pro
-							zrodził się z przełomowych pomysłów. Teraz czeka na Twoje.</p>
+					<div class="item">
+						<center>
+							<img src="<c:url value='/img/italy.jpg'/>" alt="Włochy"
+								width="700" height="300">
+						</center>
+						<div class="carousel-caption">
+							<h1>Włochy</h1>
+							<p style="color: white; font-weight: bold;">już od 2500 zł</p>
+						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
 
-	<div class="jumbotron text-center">
-		<h2>Najnowsze</h2>
+	<div class="col-sm-4">
+		<h3>
+			<b>Najnowsze</b>
+		</h3>
+		<br>
+		<table>
+
+			<tr>
+				<th>Wyjazd 1</th>
+				<td>800 zł</td>
+			</tr>
+
+			<tr>
+				<th>Wyjazd 1</th>
+				<td>800 zł</td>
+			</tr>
+
+			<tr>
+				<th>Wyjazd 1</th>
+				<td>800 zł</td>
+			</tr>
+
+			<tr>
+				<th>Wyjazd 1</th>
+				<td>800 zł</td>
+			</tr>
+
+		</table>
+	</div>
+	<div class="col-sm-4">
+		<h3>
+			<b>Najtańsze</b>
+		</h3>
 		<br>
 		<table>
 
@@ -118,10 +173,50 @@
 		</table>
 	</div>
 
+	<div class="col-sm-4">
+		<h3>
+			<b>Popularne</b>
+		</h3>
+		<br>
+		<table>
+
+			<tr>
+				<th>Wyjazd 1</th>
+				<td>800 zł</td>
+			</tr>
+
+			<tr>
+				<th>Wyjazd 1</th>
+				<td>800 zł</td>
+			</tr>
+
+			<tr>
+				<th>Wyjazd 1</th>
+				<td>800 zł</td>
+			</tr>
+
+			<tr>
+				<th>Wyjazd 1</th>
+				<td>800 zł</td>
+			</tr>
+
+		</table>
+	</div>
+	<div class="jumbotron text-center">
+		<br>
+		<div class="row">
+
+			<div class="col-sm-4"></div>
+		</div>
+
+	</div>
+
 	<div class="container" id="footerContainer">
 		<div class="row bottom-buffer">
 			<div class="col-sm-4">
-				<h1><b>Skontaktuj się z nami</b></h1>
+				<h1>
+					<b>Skontaktuj się z nami</b>
+				</h1>
 			</div>
 
 		</div>
@@ -129,18 +224,29 @@
 		<div class="row bottom-buffer">
 
 			<div class="col-sm-4">
-				Infolinia <br> 555 652 785
+				<p style="color: white; font-weight: bold;">
+					Infolinia <br> 555 652 785
+				</p>
+
+
 
 			</div>
 
 			<div class="col-sm-4">
-				Godziny otwarcia <br> 8-22 pon-pt <br> 9-20
-				sob-nd
+				<p style="color: white; font-weight: bold;">
+					Godziny otwarcia <br> 8-22 pon-pt <br> 9-20 sob-nd
+				</p>
+
+
 			</div>
 
 			<div class="col-sm-4">
-				Email <br> <a href="mailto:damianferens@gmail.com">Napisz
-					do nas</a>
+				<p style="color: white; font-weight: bold;">
+					Email <br> <a href="mailto:damianferens@gmail.com">Napisz
+						do nas</a>
+				</p>
+
+
 			</div>
 
 		</div>
