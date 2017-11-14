@@ -62,6 +62,8 @@
 			</div>
 
 		</div>
+
+
 	</div>
 
 	<div class="col-sm-6">
@@ -202,6 +204,65 @@
 
 		</table>
 	</div>
+
+	<div class="row">
+		<div class="col-sm-1"></div>
+
+		<div class="col-sm-3">
+			<br> <br>
+
+			<div class="card">
+				<img src="<c:url value='/img/spain.jpg'/>" alt="Hiszpania"
+					width="100%" height="200">
+				<div class="container">
+					<h4>
+						<b>Barcelona</b>
+					</h4>
+					<p>
+						1500 zł za osobę<br>Wyjazd 1.12.2017
+					</p>
+				</div>
+			</div>
+		</div>
+
+
+		<div class="col-sm-3">
+			<br> <br>
+			<div class="card">
+				<img src="<c:url value='/img/germany.jpg'/>" alt="Hiszpania"
+					width="100%" height="200">
+				<div class="container">
+					<h4>
+						<b>Frankfurt</b>
+					</h4>
+					<p>
+						2000 zł za osobę<br>Wyjazd 11.12.2017
+					</p>
+				</div>
+			</div>
+
+		</div>
+
+
+		<div class="col-sm-3">
+			<br> <br>
+
+			<div class="card">
+				<img src="<c:url value='/img/italy.jpg'/>" alt="Hiszpania"
+					width="100%" height="200">
+				<div class="container">
+					<h4>
+						<b>Wenecja</b>
+					</h4>
+					<p>
+						2000 zł za osobę<br>Wyjazd 11.12.2017
+					</p>
+				</div>
+			</div>
+		</div>
+
+	</div>
+
 	<div class="jumbotron text-center">
 		<br>
 		<div class="row">
@@ -227,17 +288,12 @@
 				<p style="color: white; font-weight: bold;">
 					Infolinia <br> 555 652 785
 				</p>
-
-
-
 			</div>
 
 			<div class="col-sm-4">
 				<p style="color: white; font-weight: bold;">
 					Godziny otwarcia <br> 8-22 pon-pt <br> 9-20 sob-nd
 				</p>
-
-
 			</div>
 
 			<div class="col-sm-4">
