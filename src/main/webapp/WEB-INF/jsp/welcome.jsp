@@ -24,19 +24,19 @@
 </head>
 <body>
 
-	<nav class="navbar navbar-inverse">
+	<nav class="navbar navbar-default">
 		<div class="container">
 			<div class="navbar-header">
-				<a class="navbar-brand" href="#"><img src="img/home.png"
-					width="20"></a>
+				<a class="navbar-brand" href="welcome.html"><img src="img/home.png"
+					width="48"></a>
 			</div>
 			<div id="navbar" class="collapse navbar-collapse">
 				<ul class="nav navbar-nav">
-					<li class="active"><a href="#">Strona główna</a></li>
-					<li class="active"><a href="#">Podróże</a></li>
-					<li class="active"><a href="#">Konto</a></li>
+					<li ><a href="welcome.html">Strona główna</a></li>
+					<li ><a href="travels.html">Podróże</a></li>
+					<li ><a href="account.html">Konto</a></li>
 
-					<li><a href="#about">O Globetrotter</a></li>
+					<li><a href="about.html">O Globetrotter</a></li>
 				</ul>
 			</div>
 		</div>
@@ -275,7 +275,7 @@
 	<div class="container" id="footerContainer">
 		<div class="row bottom-buffer">
 			<div class="col-sm-4">
-				<h1>
+				<h1 class="display-4">
 					<b>Skontaktuj się z nami</b>
 				</h1>
 			</div>
@@ -285,18 +285,24 @@
 		<div class="row bottom-buffer">
 
 			<div class="col-sm-4">
+			<img src="<c:url value='/img/call.png'/>" alt="call"
+					height="64">
 				<p style="color: white; font-weight: bold;">
 					Infolinia <br> 555 652 785
 				</p>
 			</div>
 
 			<div class="col-sm-4">
+			<img src="<c:url value='/img/clock.png'/>" alt="clock"
+					height="64">
 				<p style="color: white; font-weight: bold;">
 					Godziny otwarcia <br> 8-22 pon-pt <br> 9-20 sob-nd
 				</p>
 			</div>
 
 			<div class="col-sm-4">
+			<img src="<c:url value='/img/mail.png'/>" alt="mail"
+					height="64">
 				<p style="color: white; font-weight: bold;">
 					Email <br> <a href="mailto:damianferens@gmail.com">Napisz
 						do nas</a>

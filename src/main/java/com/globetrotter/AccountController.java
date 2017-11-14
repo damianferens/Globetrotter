@@ -7,11 +7,13 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
-public class WelcomeController {
+public class AccountController {
 	
-	@RequestMapping(value={"", "/", "welcome"})
-	public String welcome(Map<String, Object> model) {
-		return "welcome";
+	@RequestMapping("/account")
+	public String account(Map<String, Object> model) {
+	
+		return "account";
 	}
+
 
 }
