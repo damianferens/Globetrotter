@@ -21,6 +21,9 @@ div.bcontainer {
 	max-width: 90%;
 	margin: auto;
 }
+div.Cardcontainer {
+	max-width: 100%;
+}
 
 .navbar-default {
 	background-color: #e74c3c;

@@ -96,7 +96,7 @@
 						<div class="carousel-inner" role="listbox">
 							<div class="item active">
 								<center>
-									<img src="<c:url value='/img/spain.jpg'/>" alt="Hiszpania"
+									<img src="<c:url value='/img/spain.png'/>" alt="Hiszpania"
 										width="700" height="350">
 								</center>
 								<div class="carousel-caption">
@@ -144,22 +144,22 @@
 
 				<tr>
 					<td>Barcelona</td>
-					<td id="tdCenter">800 zł</td>
+					<td id="tdCenter">1200 zł</td>
 				</tr>
 
 				<tr>
 					<td>Madryt</td>
-					<td id="tdCenter">800 zł</td>
+					<td id="tdCenter">1400 zł</td>
 				</tr>
 
 				<tr>
 					<td>Rio de Janeiro</td>
-					<td id="tdCenter">800 zł</td>
+					<td id="tdCenter">1200 zł</td>
 				</tr>
 
 				<tr>
 					<td>Nowy Jork</td>
-					<td id="tdCenter">800 zł</td>
+					<td id="tdCenter">1100 zł</td>
 				</tr>
 
 			</table>
@@ -173,22 +173,22 @@
 
 				<tr>
 					<td>Londyn</td>
-					<td id="tdCenter">800 zł</td>
+					<td id="tdCenter">2100 zł</td>
 				</tr>
 
 				<tr>
 					<td>Ateny</td>
-					<td id="tdCenter">800 zł</td>
+					<td id="tdCenter">2500 zł</td>
 				</tr>
 
 				<tr>
 					<td>Wiedeń</td>
-					<td id="tdCenter">800 zł</td>
+					<td id="tdCenter">2300 zł</td>
 				</tr>
 
 				<tr>
 					<td>Moskwa</td>
-					<td id="tdCenter">800 zł</td>
+					<td id="tdCenter">2200 zł</td>
 				</tr>
 
 			</table>
@@ -202,22 +202,22 @@
 
 				<tr>
 					<td>Chicago</td>
-					<td id="tdCenter">800 zł</td>
+					<td id="tdCenter">1600 zł</td>
 				</tr>
 
 				<tr>
 					<td>Rzym</td>
-					<td id="tdCenter">800 zł</td>
+					<td id="tdCenter">1700 zł</td>
 				</tr>
 
 				<tr>
 					<td>Turyn</td>
-					<td id="tdCenter">800 zł</td>
+					<td id="tdCenter">1500 zł</td>
 				</tr>
 
 				<tr>
 					<td>Amsterdam</td>
-					<td id="tdCenter">800 zł</td>
+					<td id="tdCenter">1400 zł</td>
 				</tr>
 
 			</table>
@@ -232,14 +232,16 @@
 				<b>Lato 2018</b>
 			</h3>
 		</div>
+		
+		
 		<div class="row">
 
 			<div class="col-sm-3">
 
 				<div class="card">
-					<img src="<c:url value='/img/spain.jpg'/>" alt="Hiszpania"
+					<img src="<c:url value='/img/spain.png'/>" alt="Hiszpania"
 						width="100%" height="200">
-					<div class="container">
+					<div class="Cardcontainer">
 						<h4>
 							<b>Barcelona</b>
 						</h4>
@@ -253,10 +255,10 @@
 
 			<div class="col-sm-3">
 				<div class="card">
-					<img src="<c:url value='/img/germany.jpg'/>" alt="Hiszpania"
+					<img src="<c:url value='/img/ger.jpg'/>" alt="Hiszpania"
 						width="100%" height="200">
-					<div class="container">
-						<h4>
+					<div class="Cardcontainer">
+						<h4 class="display-4">
 							<b>Frankfurt</b>
 						</h4>
 						<p>
@@ -273,7 +275,7 @@
 				<div class="card">
 					<img src="<c:url value='/img/france.jpg'/>" alt="Hiszpania"
 						width="100%" height="200">
-					<div class="container">
+					<div class="Cardcontainer">
 						<h4>
 							<b>Paryż</b>
 						</h4>
@@ -289,7 +291,7 @@
 				<div class="card">
 					<img src="<c:url value='/img/italy.jpg'/>" alt="Hiszpania"
 						width="100%" height="200">
-					<div class="container">
+					<div class="Cardcontainer">
 						<h4>
 							<b>Wenecja</b>
 						</h4>
@@ -309,9 +311,9 @@
 			<div class="col-sm-3">
 
 				<div class="card">
-					<img src="<c:url value='/img/spain.jpg'/>" alt="Hiszpania"
+					<img src="<c:url value='/img/spain.png'/>" alt="Hiszpania"
 						width="100%" height="200">
-					<div class="container">
+					<div class="Cardcontainer">
 						<h4>
 							<b>Barcelona</b>
 						</h4>
@@ -325,9 +327,9 @@
 
 			<div class="col-sm-3">
 				<div class="card">
-					<img src="<c:url value='/img/germany.jpg'/>" alt="Hiszpania"
+					<img src="<c:url value='/img/ger.jpg'/>" alt="Hiszpania"
 						width="100%" height="200">
-					<div class="container">
+					<div class="Cardcontainer">
 						<h4>
 							<b>Frankfurt</b>
 						</h4>
@@ -345,7 +347,7 @@
 				<div class="card">
 					<img src="<c:url value='/img/france.jpg'/>" alt="Hiszpania"
 						width="100%" height="200">
-					<div class="container">
+					<div class="Cardcontainer">
 						<h4>
 							<b>Paryż</b>
 						</h4>
@@ -361,7 +363,7 @@
 				<div class="card">
 					<img src="<c:url value='/img/italy.jpg'/>" alt="Hiszpania"
 						width="100%" height="200">
-					<div class="container">
+					<div class="Cardcontainer">
 						<h4>
 							<b>Wenecja</b>
 						</h4>
@@ -376,26 +378,18 @@
 
 
 	<div class="container" id="footerContainer" style="margin-top: 100px">
-		<div class="row bottom-buffer">
-			<div class="col-sm-4">
-				<h1 class="display-4">
-					<b>Skontaktuj się z nami</b>
-				</h1>
-			</div>
-
-		</div>
-
+		
 		<div class="row bottom-buffer">
 
 			<div class="col-sm-4">
-				<img src="<c:url value='/img/call.png'/>" alt="call">
+				<img src="<c:url value='/img/call.png'/>" alt="call" style="padding-top:20px;">
 				<p style="color: white; font-weight: bold;">
 					<br> Infolinia <br> 555 652 785
 				</p>
 			</div>
 
 			<div class="col-sm-4">
-				<img src="<c:url value='/img/clock.png'/>" alt="clock" height="64">
+				<img src="<c:url value='/img/clock.png'/>" alt="clock" style="padding-top:20px;">
 				<p style="color: white; font-weight: bold;">
 					<br>Godziny otwarcia <br> 8-22 pon-pt <br> 9-20
 					sob-nd
@@ -403,7 +397,7 @@
 			</div>
 
 			<div class="col-sm-4">
-				<img src="<c:url value='/img/mail.png'/>" alt="mail" height="64">
+				<img src="<c:url value='/img/mail.png'/>" alt="mail" style="padding-top:20px;">
 				<p style="color: white; font-weight: bold;">
 					<br>Email <br> globetrotter@gmail.com
 				</p>

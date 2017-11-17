@@ -52,40 +52,29 @@
 	
 	</center>
 
-	<div class="container" id="footerContainer">
-		<div class="row bottom-buffer">
-			<div class="col-sm-4">
-				<h1 class="display-4">
-					<b>Skontaktuj się z nami</b>
-				</h1>
-			</div>
-
-		</div>
-
+		<div class="container" id="footerContainer" style="margin-top: 100px">
+		
 		<div class="row bottom-buffer">
 
 			<div class="col-sm-4">
-			<img src="<c:url value='/img/call.png'/>" alt="call"
-					height="64">
+				<img src="<c:url value='/img/call.png'/>" alt="call" style="padding-top:20px;">
 				<p style="color: white; font-weight: bold;">
-					Infolinia <br> 555 652 785
+					<br> Infolinia <br> 555 652 785
 				</p>
 			</div>
 
 			<div class="col-sm-4">
-			<img src="<c:url value='/img/clock.png'/>" alt="clock"
-					height="64">
+				<img src="<c:url value='/img/clock.png'/>" alt="clock" style="padding-top:20px;">
 				<p style="color: white; font-weight: bold;">
-					Godziny otwarcia <br> 8-22 pon-pt <br> 9-20 sob-nd
+					<br>Godziny otwarcia <br> 8-22 pon-pt <br> 9-20
+					sob-nd
 				</p>
 			</div>
 
 			<div class="col-sm-4">
-			<img src="<c:url value='/img/mail.png'/>" alt="mail"
-					height="64">
+				<img src="<c:url value='/img/mail.png'/>" alt="mail" style="padding-top:20px;">
 				<p style="color: white; font-weight: bold;">
-					Email <br> <a href="mailto:damianferens@gmail.com">Napisz
-						do nas</a>
+					<br>Email <br> globetrotter@gmail.com
 				</p>
 
 
