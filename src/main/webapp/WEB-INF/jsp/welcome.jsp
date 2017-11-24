@@ -37,6 +37,10 @@
 					<li><a href="account.html">Konto</a></li>
 
 					<li><a href="about.html">O Globetrotter</a></li>
+					<li><a href="login.html">Zaloguj</a></li>
+					<li><a href="register.html">Zarejestruj</a></li>
+
+
 				</ul>
 			</div>
 		</div>
@@ -232,8 +236,8 @@
 				<b>Lato 2018</b>
 			</h3>
 		</div>
-		
-		
+
+
 		<div class="row">
 
 			<div class="col-sm-3">
@@ -378,18 +382,20 @@
 
 
 	<div class="container" id="footerContainer" style="margin-top: 100px">
-		
+
 		<div class="row bottom-buffer">
 
 			<div class="col-sm-4">
-				<img src="<c:url value='/img/call.png'/>" alt="call" style="padding-top:20px;">
+				<img src="<c:url value='/img/call.png'/>" alt="call"
+					style="padding-top: 20px;">
 				<p style="color: white; font-weight: bold;">
 					<br> Infolinia <br> 555 652 785
 				</p>
 			</div>
 
 			<div class="col-sm-4">
-				<img src="<c:url value='/img/clock.png'/>" alt="clock" style="padding-top:20px;">
+				<img src="<c:url value='/img/clock.png'/>" alt="clock"
+					style="padding-top: 20px;">
 				<p style="color: white; font-weight: bold;">
 					<br>Godziny otwarcia <br> 8-22 pon-pt <br> 9-20
 					sob-nd
@@ -397,7 +403,8 @@
 			</div>
 
 			<div class="col-sm-4">
-				<img src="<c:url value='/img/mail.png'/>" alt="mail" style="padding-top:20px;">
+				<img src="<c:url value='/img/mail.png'/>" alt="mail"
+					style="padding-top: 20px;">
 				<p style="color: white; font-weight: bold;">
 					<br>Email <br> globetrotter@gmail.com
 				</p>
